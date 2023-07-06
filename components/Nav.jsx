@@ -18,6 +18,8 @@ const Nav = () => {
     setUpProviders();
   }, []);
 
+
+   console.log(providers)
   return (
     <nav
       className="flex-between w-full mb-16
@@ -47,7 +49,7 @@ const Nav = () => {
             </button>
             <Link href="/profile">
               <Image
-                src={session?.user.image}
+                src={session?.user.image}    
                 width={37}
                 height={37}
                 className="rounded-full"
