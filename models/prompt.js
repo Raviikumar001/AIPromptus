@@ -1,5 +1,7 @@
 import { Schema, model, models } from "mongoose";
 
+
+//prompts schema
 const  PromptSchema = new Schema({
      
     creator:{
